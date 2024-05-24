@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: jwt
+server:
+  port: ${SERVER_PORT}
+
+jwt:
+  key: ${JWT_KEY}
+  accessTokenExpiration: 3600000
+  refreshTokenExpiration: 86400000
